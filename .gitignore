@@ -1,0 +1,40 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.rds
+*.rdata
+*.Rda
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+
+# Optuna / model outputs
+lightgbm/
+xgboost/
+
+# Generated outputs
+output/
+
+# Data files (large binaries and CSVs)
+data/**/*.csv
+data/**/*.RData
+data/**/*.rdata
+data/**/*.Rda
+data/**/*.rds
+data/**/*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
